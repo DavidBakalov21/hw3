@@ -1,0 +1,73 @@
+.one{
+    color: rgb(12, 255, 247);
+    
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    padding: 10px;
+    border:4px solid rgb(171, 4, 71);
+}
+.two{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(171, 4, 71);
+}
+.three{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(171, 4, 71);
+}
+.four{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(171, 4, 71);
+}
+.five{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(171, 4, 71);
+}
+.six{
+    padding: 20px;
+  color: rgb(12, 255, 247);
+  background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+  border:4px solid rgb(107, 1, 255);
+}
+
+.nameT{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(107, 1, 255);;
+}
+.profT{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(107, 1, 255);
+}
+.foodT{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(107, 1, 255);
+}
+
+.pwordT{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%);
+    border:4px solid rgb(107, 1, 255);
+}
+.EmailT{
+    padding: 20px;
+    color: rgb(12, 255, 247);
+    background: linear-gradient(to top right, #e1750f 0%, #212cc6 66%); 
+    border:4px solid rgb(107, 1, 255);
+}
+.Customtable{
+    
+    border:  4px solid rgb(255, 118, 118);
+}

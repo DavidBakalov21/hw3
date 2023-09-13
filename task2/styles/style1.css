@@ -1,0 +1,72 @@
+.one{
+    color: chartreuse; 
+    background-color: darkblue; 
+    padding: 30px;
+    border:4px solid yellowgreen;
+}
+.two{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid yellowgreen;
+}
+.three{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue;
+    border:4px solid yellowgreen; 
+}
+.four{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue;
+    border:4px solid yellowgreen; 
+}
+.five{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid yellowgreen;
+}
+.six{
+    padding: 15px;
+  color: chartreuse;
+  background-color: darkblue;  
+  border:4px solid red;
+}
+
+.nameT{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid red;
+}
+.profT{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid red;
+}
+.foodT{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid red;
+}
+
+.pwordT{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid red;
+}
+.EmailT{
+    padding: 15px;
+    color: chartreuse;
+    background-color: darkblue; 
+    border:4px solid red;
+}
+.Customtable{
+    
+    border:  4px solid rgb(255, 0, 0);
+}

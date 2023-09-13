@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" id="styles-id" href=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+
+<body>
+    <p class="six">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quaerat, repellat aliquam? Recusandae reprehenderit 
+         quos iusto cumque delectus, dolores quae libero at? 
+         Temporibus quaerat qui totam a, distinctio beatae provident tempore?</p>
+         <div class="Customtable" style="width: 200px; overflow: scroll;">
+            <table>
+                <tr class="even">
+                    <th class="one"><i id="icon">tytrewqwertyrewq</i></td>
+                    <th class="two"><i id="icon2">bnmnbvcxawerggfds</i></td>
+                    <th class="three"><i id="icon3">asacascascascas</i></td>
+                    <th class="four"><i id="icon4">asacascascascas</i></td>
+                    <th class="five"><i id="icon5">asacascascascas</i></td>
+                </tr>
+            
+                <tr class="odd">
+                    <td class="nameT">asacascascascasfd</td>
+                    <td class="profT">ascascascas</td>
+                    <td class="foodT">ascacsacacs</td>
+                    <td class="pwordT">sacascasc</td>
+                    <td class="EmailT">scsdbfevvsdvsd</td>
+                    
+                </tr>
+                <tr class="even">
+                    <td class="one">asacascascascasfd</td>
+                    <td class="two">ascascascas</td>
+                    <td class="three">ascacsacacs</td>
+                    <td class="four">sacascasc</td>
+                    <td class="five">scsdbfevvsdvsd</td>
+                    
+                </tr>
+            </table>
+         </div>
+       
+         <button  onclick="updateStylesheetHref('styles/style1.css')">style1</button>
+         <button  onclick="updateStylesheetHref('styles/style2.css')">style2</button>
+         <button onclick="updateStylesheetHref('styles/style3.css')">style3</button>
+         <script>
+            function updateStylesheetHref(newHref) {
+                let stylesheet = document.getElementById("styles-id");
+                if (stylesheet) {
+                    if(newHref=='styles/style1.css'){
+                        document.getElementById("icon").className = "fas fa-heart";
+                        document.getElementById("icon2").className = "fas fa-heart";
+                        document.getElementById("icon3").className = "fas fa-heart";
+                        document.getElementById("icon4").className = "fas fa-heart";
+                        document.getElementById("icon5").className = "fas fa-heart";
+                    }else if(newHref=='styles/style2.css'){
+                        document.getElementById("icon").className = "fa-brands fa-github";
+                        document.getElementById("icon2").className = "fa-brands fa-github";
+                        document.getElementById("icon3").className = "fa-brands fa-github";
+                        document.getElementById("icon4").className = "fa-brands fa-github";
+                        document.getElementById("icon5").className = "fa-brands fa-github"; 
+                    }else if(newHref=='styles/style3.css'){
+                        document.getElementById("icon").className = "fa-solid fa-wifi";
+                        document.getElementById("icon2").className = "fa-solid fa-wifi";
+                        document.getElementById("icon3").className = "fa-solid fa-wifi";
+                        document.getElementById("icon4").className = "fa-solid fa-wifi";
+                        document.getElementById("icon5").className = "fa-solid fa-wifi"; 
+                    }
+                    stylesheet.href = newHref;
+                } else {
+                    console.error("Stylesheet not found!");
+                }
+            }
+        </script>
+</body>
+</html>
